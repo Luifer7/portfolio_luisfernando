@@ -43,12 +43,15 @@ section {
 .navbar {
   position: fixed;
   background: transparent;
-  transition: background 0.3s;
+  transition:  0.3s;
   display: flex;
   justify-content: space-between;
   height: 60px;
   width: 100%;
   z-index: 5;
+  background-image: url(/img/1.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 .navbar__logo {
@@ -58,10 +61,11 @@ section {
 
 .navbar__title {
   font-size: 24px;
+  
 }
 
 .navbar__title::before {
-  content: "({";
+  content: "{";
   color: #1aaafe;
 }
 
@@ -109,7 +113,7 @@ section {
 
 .home__background {
   background-color: #8e8e8e;
-  background-image: url(./assets/bg.webp);
+  background-image: url(./img/1.jpg);
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
@@ -391,7 +395,9 @@ section {
 
 .footer {
   color: #8e8e8e;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-image: url(/img/1.jpg);
+  background-position: center;
+  background-size: cover;
   padding: 30px;
   text-align: center;
   font-size: 14px;
@@ -399,6 +405,8 @@ section {
 
 .footer a {
   color: #8e8e8e;
+ 
+  
 }
 
 .footer a:hover {

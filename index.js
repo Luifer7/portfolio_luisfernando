@@ -18,8 +18,7 @@ menu.addEventListener("click", handleLlinks);
 links.addEventListener("click", handleLlinks);
 
 window.addEventListener("scroll", function () {
-  window.scrollY > 100 && (navbar.style.background = `rgba(0,0,0,0.9)`);
-  window.scrollY < 100 && (navbar.style.background = `transparent`);
+ 
 });
 
 let observer = new IntersectionObserver(function (entries, self) {
